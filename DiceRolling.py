@@ -4,7 +4,7 @@ def dice():
     while True: 
         
         user_input = input("Roll the dice? (y/n): ")
-        how_many = input("How many dice you want roll(1-3): ")
+        how_many = int(input("How many dice you want roll(1-3): "))
 
         if(user_input.lower() == "y" and how_many == 1):
             die1 = random.randint(1,6)
