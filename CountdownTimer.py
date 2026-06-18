@@ -17,7 +17,6 @@ for x in range(total_seconds, 0, -1):
     secs = x % 60
     seconds2 = int(x/60) % 60
     seconds1 = int(x/3600)
-    
     print(f"{seconds1:02}:{seconds2:02}:{secs:02}")
     time.sleep(1)
 
