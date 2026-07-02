@@ -76,7 +76,7 @@ words = (
     "otaheite gooseberry", "indian gooseberry", "amla", "chico fruit",
     "champedak", "durian belanda", "langsat", "duku", "santol", "marang",
     "bignay", "kaffir lime", "makrut lime", "amanatsu", "hyuganatsu",
-    "dekopon", "sudachi", "sunki", "buddha hand citron", "tayberry",
+    "dekopon", "sudachi", "sunki", "tayberry",
     "loganberry", "marionberry", "olallieberry", "salmonberry", "thimbleberry",
     "wineberry", "juneberry", "serviceberry", "chokeberry", "aronia berry",
     "sea buckthorn", "barberry", "sloe berry", "rowan berry", "hawthorn berry",
