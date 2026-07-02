@@ -1,7 +1,7 @@
 import random 
 from words import *
 
-hangman_art = {
+hangman = {
     0: ("   ",
         "   ",
         "   "),
@@ -27,7 +27,7 @@ hangman_art = {
 
 def display_man(wrong_guesses):
     print("-------------------------")
-    for line in hangman_art[wrong_guesses]:
+    for line in hangman[wrong_guesses]:
         print(line)
     print("-------------------------")
 def display_hint(hint):
@@ -73,7 +73,7 @@ def main():
             display_answer(answer)
             print("YOU GUESSED IT!\nYOU WIN!")
             is_running = False            
-        elif wrong_guesses >= len(hangman_art) - 1:
+        elif wrong_guesses >= len(hangman) - 1:
             display_man(wrong_guesses)
             display_answer(answer)
             print("YOU LOSE!")
