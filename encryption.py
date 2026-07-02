@@ -13,7 +13,7 @@ cipher_text = ""
 
 for letters in plain_text:
     index = chars.index(letters)
-    cipher_text += key[index]
+    cipher_text += key[index]               #Appending
 
 print(f"Encrypted message: {cipher_text}")
 
@@ -23,6 +23,6 @@ plain_text = ""
 
 for letter in cipher_text:
     index = key.index(letter)
-    plain_text += chars[index]
+    plain_text += chars[index]             #Appending
 
 print(f"The message: {plain_text}")
